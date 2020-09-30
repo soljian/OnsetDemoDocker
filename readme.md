@@ -20,10 +20,6 @@ To save some time, there is a `Makefile` in this project. Feel free to use it. Y
 
 The shared folder contain all the stuff we are mounting on the server container like `server_config.json`, `world.json`, etc
 
-## Logs
-
-The `logs` folder will have a `server_log.txt` file with all the logs from your server. It's optionnal.
-
 # Workflow
 
 tl:dr : `make dev` to run your server. When you update your files, use `CTRL + C` in the console to shutdown the server. Do it 2 times to kill it instead of gracefully stop it (it's faster). Then, `make dev` again and connect.

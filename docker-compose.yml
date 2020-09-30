@@ -10,7 +10,6 @@ services:
       - "./shared/weapons.json:/home/steam/onset/weaponds.json"
       - "./shared/world.json:/home/steam/onset/world.json"
       - "./packages:/home/steam/onset/packages"
-      - "./logs/server_log.txt:/home/steam/onset/server_log.txt"
     user: "steam:steam"
     ports:
       - "7777:7777/udp"
