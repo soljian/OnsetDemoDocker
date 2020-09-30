@@ -1,0 +1,47 @@
+
+2020-09-30 16:49:19 [info] Linux Server is starting
+2020-09-30 16:49:19 [info] Detected 12 logical processors
+2020-09-30 16:49:19 [warning] Config: "website_url" must be between 5-40 characters, setting to Undefined
+2020-09-30 16:49:19 [info] Loaded 21 weapons from config
+2020-09-30 16:49:19 [info] Loading plugin "ini-plugin"
+2020-09-30 16:49:19 [info] ini-plugin: v1.0 successfully loaded.
+2020-09-30 16:49:19 [info] Starting package "sandbox"
+2020-09-30 16:49:19 [warning] File "packages/sandbox/props/test.pak" in package "sandbox" not found
+2020-09-30 16:49:19 [script] Server: Attempting to load world.
+2020-09-30 16:49:19 [script] CreateObject(1, 125552.9375, 79397.7734375, 1515.3011474609, 0, 0, 0, 1, 1, 1)
+2020-09-30 16:49:19 [script] Server: World loaded!
+2020-09-30 16:49:19 [script] Server: No schematics.json found in root server directory, one will be made next time a schematic is saved.
+2020-09-30 16:49:19 [info] Package load done, clients will download 146 files with a total of 1651 KB
+2020-09-30 16:49:19 [info] Max players set to 20
+2020-09-30 16:49:19 [info] VoIP systems activated at 48000hz
+2020-09-30 16:49:19 [info] Listening on 0.0.0.0
+2020-09-30 16:49:19 [info] Open port channels:
+2020-09-30 16:49:19 [info] 	UDP 7777 (game)
+2020-09-30 16:49:19 [info] 	UDP 7776 (query)
+2020-09-30 16:49:19 [info] 	TCP 7775 (file)
+2020-09-30 16:49:19 [info] Server loaded. Entering simulation...
+
+2020-09-30 16:49:29 [info] Linux Server is starting
+2020-09-30 16:49:29 [info] Detected 12 logical processors
+2020-09-30 16:49:29 [warning] Config: "website_url" must be between 5-40 characters, setting to Undefined
+2020-09-30 16:49:29 [info] Loaded 21 weapons from config
+2020-09-30 16:49:29 [info] Loading plugin "ini-plugin"
+2020-09-30 16:49:29 [info] ini-plugin: v1.0 successfully loaded.
+2020-09-30 16:49:29 [info] Starting package "sandbox"
+2020-09-30 16:49:29 [warning] File "packages/sandbox/props/test.pak" in package "sandbox" not found
+2020-09-30 16:49:29 [script] Server: Attempting to load world.
+2020-09-30 16:49:29 [script] CreateObject(1, 125552.9375, 79397.7734375, 1515.3011474609, 0, 0, 0, 1, 1, 1)
+2020-09-30 16:49:29 [script] Server: World loaded!
+2020-09-30 16:49:29 [script] Server: No schematics.json found in root server directory, one will be made next time a schematic is saved.
+2020-09-30 16:49:29 [info] Package load done, clients will download 146 files with a total of 1651 KB
+2020-09-30 16:49:29 [info] Max players set to 20
+2020-09-30 16:49:29 [info] VoIP systems activated at 48000hz
+2020-09-30 16:49:29 [info] Listening on 0.0.0.0
+2020-09-30 16:49:29 [info] Open port channels:
+2020-09-30 16:49:29 [info] 	UDP 7777 (game)
+2020-09-30 16:49:29 [info] 	UDP 7776 (query)
+2020-09-30 16:49:29 [info] 	TCP 7775 (file)
+2020-09-30 16:49:29 [info] Server loaded. Entering simulation...
+2020-09-30 16:49:33 [info] Client requesting connection 172.19.0.1:57372
+2020-09-30 16:49:33 [info] Player (ID 1) joining the game (172.19.0.1:57372)
+2020-09-30 16:49:38 [info] Player (ID 1) disconnected (172.19.0.1:57372)

@@ -1,0 +1,56 @@
+{
+	"servername": "Demo Docker",
+	"servername_short": "Demo",
+	"gamemode": "Roleplay",
+	"website_url": "",
+	"ipaddress": "0.0.0.0",
+	"port": 7777,
+	"maxplayers": 20,
+	"password": "",
+	"timeout": 15000,
+	"iplimit": 5,
+	"masterlist": false,
+	"plugins": [
+		"ini-plugin"
+	],
+	"packages": [
+        "sandbox"
+	],
+	"voice": true,
+	"voice_sample_rate": 48000,
+	"voice_spatialization": true,
+	"pools": {
+		"player": {
+			"distance": 40000.0,
+			"update_rate": 0.05
+		},
+		"voice": {
+			"distance": 2000.0,
+			"update_rate": 0.8
+		},
+		"vehicle": {
+			"distance": 40000.0,
+			"update_rate": 0.1
+		},
+		"object": {
+			"distance": 40000.0,
+			"update_rate": 0.1
+		},
+		"npc": {
+			"distance": 12000.0,
+			"update_rate": 0.1
+		},
+		"pickup": {
+			"distance": 12000.0,
+			"update_rate": 0.1
+		},
+		"door": {
+			"distance": 12000.0,
+			"update_rate": 0.1
+		},
+		"text3d": {
+			"distance": 12000.0,
+			"update_rate": 0.1
+		}
+	}
+}

@@ -1,0 +1,19 @@
+version: '3.7'
+
+services:
+  onset:
+    image: steam_onset
+    build: 
+      context: .
+    volumes:
+      - "./shared/server_config.json:/home/steam/onset/server_config.json"
+      - "./shared/weapons.json:/home/steam/onset/weaponds.json"
+      - "./shared/world.json:/home/steam/onset/world.json"
+      - "./packages:/home/steam/onset/packages"
+      - "./logs/server_log.txt:/home/steam/onset/server_log.txt"
+    user: "steam:steam"
+    ports:
+      - "7777:7777/udp"
+      - "7776:7776/udp"
+      - "7775:7775/tcp"
+
